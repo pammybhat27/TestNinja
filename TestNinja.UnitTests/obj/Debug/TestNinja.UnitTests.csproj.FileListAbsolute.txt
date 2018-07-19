@@ -16,3 +16,12 @@ C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNin
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Mono.Cecil.dll
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.dll
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.dll
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.dll
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.dll
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.xml
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.pdb
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.xml
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.xml
