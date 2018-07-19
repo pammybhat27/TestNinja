@@ -9,62 +9,56 @@ using TestNinja.Fundamentals;
 
 namespace TestNinja.UnitTests {
     [TestFixture]
-
-
-   public class DemeritPointsCalculatorTests
-    {
+    public class DemeritPointsCalculatorTests {
         private DemeritPointsCalculator _demeritPointsCalculator;
 
 
         [SetUp]
-        public void SetUp()
-        {
-             _demeritPointsCalculator = new DemeritPointsCalculator();
+        public void SetUp() {
+            _demeritPointsCalculator = new DemeritPointsCalculator();
         }
 
         [Test]
-        public void calculateDemeritPoints_SpeedLessThanZero_ThrowArgumentOutofRangeException()
-        {
+        public void calculateDemeritPoints_SpeedLessThanZero_ThrowArgumentOutofRangeException() {
             //Arrange
-        
-
-           // int intResult = demeritPointsCalculator.CalculateDemeritPoints(-1);
-            Assert.That(()=> _demeritPointsCalculator.CalculateDemeritPoints(-1),Throws.TypeOf(typeof(ArgumentOutOfRangeException)));
-
-
+            // int intResult = demeritPointsCalculator.CalculateDemeritPoints(-1);
+            Assert.That(() => _demeritPointsCalculator.CalculateDemeritPoints(-1),
+            Throws.Exception.TypeOf<ArgumentOutOfRangeException>());
         }
 
 
         [Test]
-        public void calculateDemeritPoints_SpeedMoreThan300_ThrowArgumentOutofRangeException()
-        {
+        public void calculateDemeritPoints_SpeedMoreThan300_ThrowArgumentOutofRangeException() {
             //Arrange
-            
+
 
             // int intResult = demeritPointsCalculator.CalculateDemeritPoints(-1);
-            Assert.That(()=> _demeritPointsCalculator.CalculateDemeritPoints(301),Throws.TypeOf(typeof(ArgumentOutOfRangeException)));
+            Assert.That(() => _demeritPointsCalculator.CalculateDemeritPoints(301),
+                Throws.Exception.TypeOf<ArgumentOutOfRangeException>());
 
         }
 
         [Test]
-        [TestCase(65,0)]
-        [TestCase(70,1)]
-        [TestCase(75,2)]
-        public void calculateDemeritPoints_SpeedInput_ReturnsDemeritPoints(int speed,int expectedDemeritPoints)
-        {
+        [TestCase(0, 0)]
+        [TestCase(60, 0)]
+        [TestCase(65, 0)]
+        [TestCase(6, 0)]
+        [TestCase(70, 1)]
+        [TestCase(75, 2)]
+        public void calculateDemeritPoints_SpeedInput_ReturnsDemeritPoints(int speed, int expectedDemeritPoints) {
             //Arrange
-   
-            
+
+
             //Act
-             int intResult = _demeritPointsCalculator.CalculateDemeritPoints(speed);
+            int intResult = _demeritPointsCalculator.CalculateDemeritPoints(speed);
 
             //Assert
-            Assert.That(intResult,Is.EqualTo(expectedDemeritPoints));
-                
+            Assert.That(intResult, Is.EqualTo(expectedDemeritPoints));
+
 
         }
 
-       
+
 
 
     }
