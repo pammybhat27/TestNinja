@@ -21,7 +21,7 @@ namespace TestNinja.UnitTests.Mocking {
             productNewProduct.ListPrice = 100;
 
             //What we need to check is for the get price that takes in customer object
-            //Isgold property of the customer object
+            //Is gold property of the customer object
             //Whether it is true if it is 30 percent of the list price
 
             var customer = new Customer();
