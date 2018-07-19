@@ -1,6 +1,5 @@
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\TestNinja.UnitTests.dll
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\TestNinja.UnitTests.pdb
-C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\TestNinja.dll
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\EntityFramework.dll
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Newtonsoft.Json.dll
