@@ -25,3 +25,6 @@ C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNin
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.xml
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.xml
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\TestNinja.UnitTests.dll.config
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pammy\Documents\Visual Studio 2015\Projects\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\EntityFramework.SqlServer.xml
