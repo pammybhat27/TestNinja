@@ -59,18 +59,17 @@ namespace TestNinja.UnitTests {
         }
 
         [Test]
-        public void GetUnprocessedVideosAsCsv_SomeVideosAreUnprocessed_ReturnsUnprocesedVideosAsString() {
-
-            _videoRepository.Setup(vr => vr.GetUnprocessedVideos()).Returns(new List<Video>
+        public void GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnAStringWithIdOfUnprocessedVideos()
+        {
+            _videoRepository.Setup(r => r.GetUnprocessedVideos()).Returns(new List<Video>
             {
-                new Video {Id =1},
-                new Video {Id = 2},
-                new Video {Id = 3},
-
+                new Video { Id = 1 },
+                new Video { Id = 2 },
+                new Video { Id = 3 },
             });
 
             var result = _videoService.GetUnprocessedVideosAsCsv();
-
+            
             Assert.That(result, Is.EqualTo("1,2,3"));
         }
     }
