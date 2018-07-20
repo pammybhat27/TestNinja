@@ -5,6 +5,31 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace TestNinja.Mocking {
-    public class EmployeeStorage {
+    public interface IEmployeeStorage
+    {
+        void DeleteEmployee(int id);
+    }
+
+    public class EmployeeStorage : IEmployeeStorage
+    {
+        private EmployeeContext _employeeContext;
+
+        public EmployeeStorage()
+        {
+            _employeeContext = new EmployeeContext();
+        }
+
+        public void DeleteEmployee(int id)
+        {
+            
+            var employee =   _employeeContext.Employees.Find(id);
+            if (employee == null)
+                return;
+             
+            _employeeContext.Employees.Remove(employee);
+            _employeeContext.SaveChanges();
+           
+        }
+
     }
 }
